@@ -17,7 +17,9 @@ class Answer extends StatelessWidget {
           onPrimary: Colors.pink[200], // foreground
         ),
         onPressed: answerFunction,
-        child: Text(answerText),
+        child: Text(
+          answerText,
+        ),
       ),
     );
   }
